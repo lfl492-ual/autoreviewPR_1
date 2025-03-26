@@ -11,6 +11,8 @@
 // inicia ejecucion en main
 int main(void)
 {
+    INICIO_TEST();
+
     system("cls||clear");
     printf("CALCULO DE CALIFICACIONES\n");
     printf("=================================\n\n");
@@ -34,5 +36,8 @@ int main(void)
         calificacion = (n_PR * (examen * 0.8)) + n_TE + n_PR;
 
     printf("La calificacion de alumno es %.2f\n", calificacion);
+    return 0;
+
+    FIN_TEST();
     return 0;
 }
