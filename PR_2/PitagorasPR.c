@@ -21,10 +21,10 @@ int main ()
     scanf(" %f", &hipotenusa);
 
 
-    if (hipotenusa^2 =cateto1^2 +cateto2^2) {
-        printf("Cumple el teorema de pitagoras: ");
+    if (hipotenusa^2 ==cateto1^2 +cateto2^2) {
+        printf("Cumple el teorema de pitagoras. ");
     } else {
-        printf("No cumple el torema de pitagoras: ");
+        printf("No cumple el torema de pitagoras. ");
     }
 
     return 0;
